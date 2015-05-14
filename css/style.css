@@ -1,0 +1,171 @@
+nav ul li {
+ color: #621B4B; 
+ font-size: 24px;
+ float: right;
+ list-style-type: none;
+ }
+
+h2 {
+ color: #621B4B; 
+ font-size: 24px;
+ }
+
+#container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.mainimage {
+	background-image: url("../img/SPS_Logo_Pantone.svg");
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	height: 1000px;
+	background-position: center;
+	position: relative;
+}
+
+.rightleaf {
+	width: 75px; height: 75px;
+	background: #A4D7F4; 
+	-moz-border-radius: 100px 0px;
+	-webkit-border-radius: 100px 0px;
+	border-radius: 100px 0px;
+	position: absolute;
+	top: 140px;
+	left: 400px;
+	cursor: pointer;
+	transition: all .5s;
+}
+
+.rightleaf:hover, .leftleaf:hover {
+	background: #621B4B;
+}
+
+/*.year:hover {
+	color: #A4D7F4;
+}*/
+
+.leftleaf { 
+	width: 75px; height: 75px;
+	background: #A4D7F4; 
+	-moz-border-radius: 0px 100px;
+	-webkit-border-radius: 0px 100px;
+	border-radius: 0px 100px;
+	position: absolute;
+	top: 140px;
+	left: 319px;
+	cursor: pointer;
+	transition: all .5s;
+}
+
+
+.leaf1 {
+	top: 200px;
+
+}
+
+.leaf2 {
+	top: 250px;
+
+}
+
+.leaf3 {
+	top: 300px;
+}
+
+.leaf4 {
+	top: 350px;
+
+}
+
+.leaf5 {
+	top: 400px;
+}
+
+.leaf6 {
+	top: 450px;
+}
+
+.leaf7 {
+	top: 500px;
+
+}
+
+.leaf8 {
+	top: 550px;
+}
+.year {
+  display: block;
+  padding-top: 25px;
+  padding-right: 0px;
+  padding-left: 20px;
+  color: #621B4B; 
+}
+
+.bigrightleaf, .bigleftleaf {
+	width: 275px; 
+	height: 275px;
+	background: #621B4B; 
+	position: absolute;
+	cursor: pointer;
+}
+.bigrightleaf {
+	bottom: 100px;
+	left: 400px;
+	-moz-border-radius: 225px 0px;
+	-webkit-border-radius: 225px 0px;
+	border-radius: 225px 0px;
+}
+.bigleftleaf {
+/*	top: 120px;
+*/	left: 120px;
+	-moz-border-radius: 0px 225px;
+	-webkit-border-radius: 0px 225px;
+	border-radius: 0px 225px;
+}
+.bigrightleaf.leaf1 {
+	top: 0;
+}
+.imgright {
+  width: 50%;
+  height: 50%;
+  float: right;
+  padding: 5px;
+  border-bottom-right-radius: 69px;
+  border-top-left-radius: 69px;
+}
+
+.imgleft {
+  width: 50%;
+  height: 50%;
+  float: left;
+  padding: 5px;
+  border-top-right-radius: 69px;
+  border-bottom-left-radius: 69px;
+}
+
+.mainimage p {
+  display: block;
+  padding-top: 159px;
+  padding-right: 81px;
+  padding-left: 10px;
+}
+
+/*Don't I need to do this to the p's on the other side
+*/
+/*.mainimage p {
+  display: block;
+  padding-top: 159px;
+  padding-left: 97px;
+  }*/
+
+
+.hiddenrightleaf {
+	display: none;
+}
+.hiddenleftleaf {
+	display: none;
+}
+
+
+
